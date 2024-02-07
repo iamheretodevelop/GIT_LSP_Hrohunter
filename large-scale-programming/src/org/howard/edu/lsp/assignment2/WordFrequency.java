@@ -44,7 +44,7 @@ public class WordFrequency {
                 }
             	
                 // Check if the word length is less than 3 characters
-                if (word.length() < 3) {
+                if (word.length() <= 3) {
                     continue; // Skip words with length less than 3
                 }
 
