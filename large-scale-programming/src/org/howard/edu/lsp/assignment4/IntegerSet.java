@@ -151,7 +151,7 @@ public class IntegerSet {
      * @param intSetb The other set to perform difference with.
      */
     public void diff(IntegerSet intSetb) {
-        for (int i = 0; i < this.set.size(); i++) {
+        for (int i = this.set.size() - 1; i >= 0; i--) {
             if (intSetb.contains(this.set.get(i))) {
                 this.set.remove(i);
             }
