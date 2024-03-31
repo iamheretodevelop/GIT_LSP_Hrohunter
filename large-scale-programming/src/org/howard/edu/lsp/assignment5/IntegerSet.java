@@ -1,4 +1,4 @@
-package org.howard.edu.lsp.assignment4;
+package org.howard.edu.lsp.assignment5;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -10,7 +10,7 @@ import java.util.List;
 public class IntegerSet {
 
     // Store the set elements in an ArrayList
-    private List<Integer> set;
+    List<Integer> set;
 
     /**
      * Constructs an empty IntegerSet.
